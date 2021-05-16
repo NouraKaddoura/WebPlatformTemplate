@@ -1,0 +1,54 @@
+.jumbotron {
+  background-color: white !important;
+}
+
+.btn {
+  background-color: rgba(49, 54, 168, 1) !important;
+  border: none !important;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s !important;
+  cursor: pointer;
+  margin: 36px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  transition: 0.5 !important;
+  background: rgb(0, 0, 0) !important;
+  background: linear-gradient(
+    73deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(8, 12, 27, 1) 30%,
+    rgba(49, 54, 168, 1) 100%
+  ) !important;
+}
+
+.btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+span {
+  font-size: 4em !important;
+}
