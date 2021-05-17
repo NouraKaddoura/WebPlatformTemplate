@@ -15,7 +15,6 @@ ReactDOM.render(
     <NavBar />
     <Heading />
     <Vision />
-    <Body />
   </React.StrictMode>,
   document.getElementById("root")
 );
