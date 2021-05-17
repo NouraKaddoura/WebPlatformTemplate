@@ -48,7 +48,7 @@ class Vision extends Component {
             <Accordion.Collapse eventKey="2">
               <Card.Body>
                 <Row>
-                  <Col>
+                  <Col xs lg="2">
                     <img class="offer1" src="https://i.imgur.com/Tmz41VH.png" />
                   </Col>
                   <Col>
@@ -79,7 +79,7 @@ class Vision extends Component {
                       officia deserunt mollit anim id est laborum.
                     </p>
                   </Col>
-                  <Col>
+                  <Col xs lg="2">
                     <img class="offer1" src="https://i.imgur.com/XgDu4xM.png" />
                   </Col>
                 </Row>
