@@ -27,16 +27,6 @@ class Heading extends Component {
         <p>
           <Button size="md">Learn more</Button>
         </p>
-
-        <div>
-          <h3>Our Vision</h3>
-        </div>
-        <div>
-          <h3>Our Mission</h3>
-        </div>
-        <div>
-          <h3>Our Offerings</h3>
-        </div>
       </Jumbotron>
     );
   }

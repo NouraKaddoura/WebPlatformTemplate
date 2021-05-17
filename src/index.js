@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import NavBar from "./components/navbar";
 import Body from "./components/body";
 import Heading from "./components/Heading";
+import Vision from "./components/vision.jsx";
 import Announcement from "./components/body";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,6 +14,7 @@ ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <Heading />
+    <Vision />
     <Body />
   </React.StrictMode>,
   document.getElementById("root")
